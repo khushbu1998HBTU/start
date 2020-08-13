@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Power2Create</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #slider {
+            overflow: hidden;
+        }
+
+        #slider figure {
+            position: relative;
+            width: 500%;
+            margin: 0;
+            left: 0;
+            animation: 20s slider infinite;
+        }
+
+        #slider figure img {
+            width: 20%;
+            float: left;
+
+        }
+
+        @keyframes slider {
+            0% {
+                left: 0;
+            }
+
+            20% {
+                left: 0;
+            }
+
+            25% {
+                left: -100%;
+            }
+
+            45% {
+                left: -100%;
+            }
+
+            50% {
+                left: -200%;
+            }
+
+            70% {
+                left: -200%;
+            }
+
+            75% {
+                left: -300%;
+            }
+
+            95% {
+                left: -300%;
+            }
+
+            100% {
+                left: -400%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="slider">
+        <figure>
+            <img src="img/gif-1920x1080-web&app.gif">
+            <img src="img/gif-business-planning.gif">
+            <img src="img/gif-idea.gif">
+            <img src="img/gif-legal.gif">
+            <img src="img/gif-fundraiser.gif">
+        </figure>
+    </div>
+
+
+</body>
+
+</html>
